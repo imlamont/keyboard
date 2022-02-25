@@ -1,0 +1,26 @@
+.title KiCad schematic
+CCryst2 Net-_Resonating_Clock1-Pad2_ +5V 22p
+Resonating_Clock1 Net-_Resonating_Clock1-Pad1_ Net-_Resonating_Clock1-Pad2_ +5V crystal1
+CCryst1 Net-_Resonating_Clock1-Pad1_ +5V 22p
+reset_switch1 +5V Net-_reset_switch1-Pad2_ SW_PUSH
+Rreset1 VCC Net-_reset_switch1-Pad2_ 10k
+Micro_USB1 VCC Net-_Micro_USB1-Pad2_ Net-_Micro_USB1-Pad3_ unconnected-_Micro_USB1-Pad4_ +5V +5V USB_mini_micro_B
+Cusb1 +5V Net-_Cusb1-Pad2_ 1u
+Rusb2 Net-_Micro_USB1-Pad3_ Net-_Rusb2-Pad2_ 22
+Rusb1 Net-_Micro_USB1-Pad2_ Net-_Rusb1-Pad2_ 22
+Cd1 VCC +5V 0.1u
+Cd4 VCC +5V 0.1u
+Cd3 VCC +5V 0.1u
+Cu1 VCC +5V 4.7u
+Cd2 VCC +5V 0.1u
+processor1 unconnected-_processor1-Pad1_ VCC Net-_Rusb1-Pad2_ Net-_Rusb2-Pad2_ +5V Net-_Cusb1-Pad2_ unconnected-_processor1-Pad7_ unconnected-_processor1-Pad8_ unconnected-_processor1-Pad9_ unconnected-_processor1-Pad10_ unconnected-_processor1-Pad11_ unconnected-_processor1-Pad12_ Net-_reset_switch1-Pad2_ unconnected-_processor1-Pad14_ unconnected-_processor1-Pad15_ Net-_Resonating_Clock1-Pad1_ Net-_Resonating_Clock1-Pad2_ unconnected-_processor1-Pad18_ unconnected-_processor1-Pad19_ unconnected-_processor1-Pad20_ unconnected-_processor1-Pad21_ unconnected-_processor1-Pad22_ +5V VCC unconnected-_processor1-Pad25_ unconnected-_processor1-Pad26_ unconnected-_processor1-Pad27_ unconnected-_processor1-Pad28_ unconnected-_processor1-Pad29_ unconnected-_processor1-Pad30_ unconnected-_processor1-Pad31_ unconnected-_processor1-Pad32_ Net-_processor1-Pad33_ VCC +5V unconnected-_processor1-Pad36_ unconnected-_processor1-Pad37_ /col1 /col0 /row1 /row0 unconnected-_processor1-Pad42_ +5V VCC ATMEGA32U4
+Rboot1 Net-_processor1-Pad33_ +5V 10k
+K1 /col0 Net-_K1-Pad2_ KEYSW
+D1 /row0 Net-_K1-Pad2_ D
+D3 /row0 Net-_D3-Pad2_ D
+K4 /col1 Net-_K4-Pad2_ KEYSW
+K2 /col0 Net-_K2-Pad2_ KEYSW
+K3 /col1 Net-_D3-Pad2_ KEYSW
+D4 /row1 Net-_K4-Pad2_ D
+D2 /row1 Net-_K2-Pad2_ D
+.end
