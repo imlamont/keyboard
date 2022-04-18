@@ -1,0 +1,15 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"K1,K4,K3,K2";"Mx_Alps_100";4;"KEYSW";;;
+2;",,";"";3;"";;;
+3;"REF**";"throughhole4mm";1;"throughhole4mm";;;
+4;"Rusb1,Rusb2";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";2;"22";;;
+5;"reset_switch1";"SW_SPST_TL3342";1;"SW_PUSH";;;
+6;"Cusb1";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";1;"1u";;;
+7;"D3,D2,D4,D1";"D_SOD123_axial";4;"D";;;
+8;"Micro_USB1";"USB_miniB_hirose_5S8";1;"USB_mini_micro_B";;;
+9;"clock1";"Crystal_SMD_Abracon_ABM8G-4Pin_3.2x2.5mm";1;"crystal1_gnd24";;;
+10;"CCryst2,CCryst1";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";2;"22p";;;
+11;"Cd1,Cd2,Cd4,Cd3";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";4;"0.1u";;;
+12;"processor1";"LQFP-44_10x10mm_P0.8mm";1;"ATMEGA32U4";;;
+13;"Rreset1,Rboot1";"R_0805_2012Metric_Pad1.20x1.40mm_HandSolder";2;"10k";;;
+14;"Cu1";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";1;"4.7u";;;
